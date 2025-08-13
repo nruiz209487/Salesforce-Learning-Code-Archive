@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <callbackUrl>https://openidconnect.herokuapp.com/callback</callbackUrl>
-    <consumerKey>3MVG9k02hQhyUgQAXVJLyEWf3Jy6cN9pKlcfHS0VIg_Q80J9ttFZ_kqaiZB.Z.vhE9yKSqMhFODPf6FGo9qqF</consumerKey>
-    <externalClientApplication>ecaViaMetadata</externalClientApplication>
+    <consumerKey>3MVG9k02hQhyUgQAXVJLyEWf3J3GmhYmmIMSOaAXnbr8gIEt3IgL.asaHAPzL4Ws6VJJUq2WMVHKrUsjurL0k</consumerKey>
+    <externalClientApplication>Customer_Order_Status</externalClientApplication>
     <isClientCredentialsFlowEnabled>false</isClientCredentialsFlowEnabled>
     <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
     <isCodeCredPostOnly>false</isCodeCredPostOnly>
@@ -13,9 +13,9 @@
     <isPkceRequired>false</isPkceRequired>
     <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
     <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
-    <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
     <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
-    <label>ecaViaMetadataglobalset</label>
+    <label>Customer_Order_Status_glbloauth</label>
     <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
     <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
 </ExtlClntAppGlobalOauthSettings>
